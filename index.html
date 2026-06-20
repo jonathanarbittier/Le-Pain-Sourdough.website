@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Le Pain Sourdough is a warm cottage bakery demo site for small-batch sourdough, focaccia, starter kits, sweets, and market pickups in Riverdale, Georgia."
+    />
+    <title>Le Pain Sourdough | Riverdale Cottage Bakery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Le Pain Sourdough home">
+        <img class="brand-logo" src="assets/images/logo.png" alt="" />
+        <span>
+          <strong>Le Pain Sourdough</strong>
+          <small>Riverdale, Georgia</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary navigation" data-nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#markets">Markets</a>
+        <a href="#story">Story</a>
+        <a class="nav-order" href="#order">Order</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section-shell">
+        <img
+          class="hero-image"
+          src="assets/images/hero-sourdough-loaves.jpg"
+          alt="Rustic sourdough loaves on a flour-dusted cottage bakery table"
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+          <h1>Slow-fermented sourdough, baked with care in Riverdale.</h1>
+          <div class="button-row">
+            <a class="button button-primary" href="#order">Order</a>
+            <a class="button button-secondary" href="#markets">Find us at the market</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="signature section-pad" aria-labelledby="signature-title">
+        <div class="section-heading reveal">
+          <h2 id="signature-title">What we're known for</h2>
+          <p>
+            A short, curated menu built around long ferments, crisp crusts, and the kind of
+            flavors that sell out first at the market table.
+          </p>
+        </div>
+
+        <div class="signature-layout">
+          <article class="feature-loaf reveal">
+            <div class="feature-image organic-frame">
+              <img
+                src="assets/images/hero-sourdough-loaves.jpg"
+                alt="Sliced original country sourdough loaf"
+                loading="lazy"
+              />
+            </div>
+            <div class="feature-copy">
+              <span class="menu-tag">Weekly staple</span>
+              <h3>Original Country Loaf</h3>
+              <p>
+                Naturally leavened, slow-fermented, and baked for a deep crust with a tender,
+                open crumb. The loaf that belongs on every Riverdale table.
+              </p>
+              <p class="order-note">Farmers market favorite</p>
+            </div>
+          </article>
+
+          <div class="feature-stack">
+            <article class="side-feature reveal">
+              <img
+                src="assets/images/cheddar-jalapeno-loaf.jpg"
+                alt="Cheddar jalapeno sourdough loaf with a sliced wedge"
+                loading="lazy"
+              />
+              <div>
+                <span class="menu-tag">Savory</span>
+                <h3>Cheddar Jalape&ntilde;o</h3>
+                <p>Sharp cheddar, gentle heat, and a crust that carries every bite.</p>
+              </div>
+            </article>
+
+            <article class="side-feature reveal">
+              <img
+                src="assets/images/rosemary-garlic-focaccia.jpg"
+                alt="Rosemary garlic focaccia cut into golden squares"
+                loading="lazy"
+              />
+              <div>
+                <span class="menu-tag">Market pull</span>
+                <h3>Rosemary Garlic Focaccia</h3>
+                <p>Dimpled, olive-oil rich, and finished with herbs for sharing.</p>
+              </div>
+            </article>
+
+            <article class="kit-feature reveal">
+              <div>
+                <span class="menu-tag">Take home</span>
+                <h3>Sourdough Starter Kit</h3>
+                <p>
+                  A simple starter setup with care notes for anyone ready to begin a loaf at home.
+                </p>
+              </div>
+              <img src="assets/images/starter-kit.jpg" alt="Glass jar sourdough starter kit" loading="lazy" />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story section-pad" id="story" aria-labelledby="story-title">
+        <div class="story-media reveal">
+          <img
+            src="assets/images/bakery-process.jpg"
+            alt="Hands shaping sourdough on a floured wooden table"
+            loading="lazy"
+          />
+        </div>
+        <div class="story-copy reveal">
+          <h2 id="story-title">A cottage bakery with real hands behind every loaf</h2>
+          <p>
+            Le Pain Sourdough is built around the quiet rhythm of slow fermentation: feeding the
+            starter, watching the dough, shaping each batch, and baking only what can be done well.
+          </p>
+          <p>
+            The menu moves with the week, the market, and the people who keep coming back for a
+            warm loaf, a focaccia square, a starter kit, or a bag of something sweet for the drive
+            home.
+          </p>
+          <div class="story-points" aria-label="Bakery values">
+            <span>Slow-fermented</span>
+            <span>Small batches</span>
+            <span>Local market pickups</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="markets section-pad" id="markets" aria-labelledby="markets-title">
+        <div class="market-board reveal">
+          <div class="market-intro">
+            <h2 id="markets-title">Find us this week</h2>
+            <p>
+              Market lineups change with each bake. Message on Instagram for this week's flavors
+              and pickup details.
+            </p>
+          </div>
+          <div class="market-strip" aria-label="Market schedule">
+            <article>
+              <span>01</span>
+              <h3>Tucker FM</h3>
+              <p>Loaves, focaccia, sweets, and starter kit notes.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>VAHI FM</h3>
+              <p>Rotating market favorites and small-batch extras.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Reynolds FM</h3>
+              <p>Fresh bakes while quantities last.</p>
+            </article>
+          </div>
+          <a class="button button-dark" href="https://www.instagram.com/le_pain_sourdough/">Contact</a>
+        </div>
+      </section>
+
+      <section class="order-section section-pad" id="order" aria-labelledby="order-title">
+        <div class="order-panel reveal">
+          <div>
+            <h2 id="order-title">Want to make sure your loaf is saved?</h2>
+            <p>
+              Limited weekly batches &mdash; orders help us plan fresh bakes and set aside market
+              pickups before the table sells through.
+            </p>
+          </div>
+          <div class="order-actions">
+            <a class="button button-primary" href="https://www.instagram.com/le_pain_sourdough/">Order</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-preview section-pad" id="menu" aria-labelledby="menu-title">
+        <div class="menu-board reveal">
+          <div class="menu-board-header">
+            <h2 id="menu-title">Bakes for the week</h2>
+            <p>Printed-board simple, with room for the baker to swap in seasonal specials.</p>
+          </div>
+          <div class="menu-columns">
+            <div>
+              <h3>Breads</h3>
+              <ul>
+                <li><span>Original Country Loaf</span><em>slow-fermented staple</em></li>
+                <li><span>Cheddar Jalape&ntilde;o</span><em>savory market favorite</em></li>
+                <li><span>Rosemary Garlic Focaccia</span><em>olive oil, herbs, crisp edges</em></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Extras</h3>
+              <ul>
+                <li><span>Dipping Mix</span><em>for bread boards and gifts</em></li>
+                <li><span>Starter Kit</span><em>begin your own loaf at home</em></li>
+                <li><span>Bread Bags</span><em>reusable storage for fresh bakes</em></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Sweets</h3>
+              <ul>
+                <li><span>Scones</span><em>small-batch morning bakes</em></li>
+                <li><span>Cookies</span><em>packed by hand</em></li>
+                <li><span>Custom Cakes</span><em>message for availability</em></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section-pad" aria-labelledby="gallery-title">
+        <div class="section-heading reveal">
+          <h2 id="gallery-title">Fresh, packed, and shared</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-large reveal">
+            <img src="assets/images/market-table.jpg" alt="Farmers market bakery table with sourdough and sweets" loading="lazy" />
+            <figcaption>Market mornings</figcaption>
+          </figure>
+          <figure class="reveal">
+            <img src="assets/images/hero-sourdough-loaves.jpg" alt="Fresh sourdough loaves cooling on linen" loading="lazy" />
+            <figcaption>Fresh from the oven</figcaption>
+          </figure>
+          <figure class="reveal">
+            <img src="assets/images/scones-cookies.jpg" alt="Handmade scones and cookies on a cooling rack" loading="lazy" />
+            <figcaption>Packed by hand</figcaption>
+          </figure>
+          <figure class="gallery-tall reveal">
+            <img src="assets/images/starter-kit.jpg" alt="Sourdough starter kit arranged on a wooden table" loading="lazy" />
+            <figcaption>Starter care</figcaption>
+          </figure>
+          <figure class="reveal">
+            <img src="assets/images/rosemary-garlic-focaccia.jpg" alt="Golden rosemary garlic focaccia squares" loading="lazy" />
+            <figcaption>Focaccia days</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="instagram section-pad" aria-labelledby="instagram-title">
+        <div class="instagram-band reveal">
+          <div>
+            <h2 id="instagram-title">Follow the bake</h2>
+            <p>
+              See weekly flavors, market updates, and behind-the-scenes bakes on Instagram.
+            </p>
+          </div>
+          <a class="button button-dark" href="https://www.instagram.com/le_pain_sourdough/">Follow @le_pain_sourdough</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="footer-brand" href="#home">Le Pain Sourdough</a>
+        <p>Riverdale, GA &middot; Cottage bakery demo</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="#menu">Menu</a>
+        <a href="#markets">Markets</a>
+        <a href="#story">Story</a>
+        <a href="#order">Order</a>
+        <a href="https://www.instagram.com/le_pain_sourdough/">Instagram</a>
+        <a href="https://www.etsy.com/">Etsy</a>
+      </nav>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
