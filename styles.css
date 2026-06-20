@@ -396,6 +396,8 @@ h3 {
 
 .feature-copy {
   padding: 0 0.55rem 0.35rem;
+  background: var(--flour);
+  border-radius: 1.1rem 0.35rem 1.1rem 0.35rem;
 }
 
 .feature-copy p {
@@ -450,8 +452,11 @@ h3 {
 
 .side-feature div,
 .kit-feature div {
+  position: relative;
+  z-index: 1;
   align-self: center;
   padding: 1.4rem 1.3rem 1.4rem 0;
+  background: var(--flour);
 }
 
 .side-feature p,
@@ -935,7 +940,10 @@ h3 {
   .side-feature div,
   .kit-feature div,
   .feature-copy {
-    padding: 0.2rem 1rem 1.2rem;
+    width: 100%;
+    margin-top: -1px;
+    padding: 1.1rem 1rem 1.25rem;
+    border-radius: 0 0 1.1rem 0.5rem;
   }
 
   .kit-feature div {
